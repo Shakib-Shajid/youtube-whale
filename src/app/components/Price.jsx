@@ -10,9 +10,9 @@ const Price = () => {
         <div>
             <h3 className='text-center text-2xl lg:text-5xl font-bold my-10 lg:my-20'>Pick a membership <br /> that fits you</h3>
 
-            <div className='grid grid-cols-1 lg:grid-cols-3 gap-10 max-w-7xl mx-auto'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 max-w-5xl custom_1080:max-w-5xl xl:max-w-6xl custom_1440:max-w-7xl custom_1600:max-w-7xl lg:max-w-7xl mx-auto'>
                 {/* 1st */}
-                <div className="card bg-base-100 w-80 md:w-96 mx-auto shadow-2xl rounded-3xl">
+                <div className="card bg-base-100 w-72 md:w-80 lg:w-96 xl:w-80 custom_1080:w-[19rem] custom_1440:w-[23rem] custom_1600:w-96 mx-auto shadow-2xl rounded-3xl">
                     <div className="card-body p-5">
                         <h2 className="border-b-2 py-2 pb-4 text-3xl font-bold flex items-center gap-3"><CiUser className='text-2xl'/>Individual</h2>
                         <div>
@@ -27,7 +27,7 @@ const Price = () => {
                 </div>
 
                 {/* 2nd */}
-                <div className="card bg-base-100 w-80 md:w-96 mx-auto shadow-2xl rounded-3xl">
+                <div className="card bg-base-100 w-72 md:w-80 lg:w-96 xl:w-80 custom_1080:w-[19rem] custom_1440:w-[23rem] custom_1600:w-96 mx-auto shadow-2xl rounded-3xl">
                     <div className="card-body p-5">
                         <h2 className="border-b-2 py-2 pb-4 text-3xl font-bold flex items-center gap-3">< TbUsers className='text-2xl'/> Family</h2>
                         <div>
@@ -42,7 +42,7 @@ const Price = () => {
                 </div>
 
                 {/* 3rd */}
-                <div className="card bg-base-100 w-80 md:w-96 mx-auto shadow-2xl rounded-3xl">
+                <div className="card bg-base-100 w-72 md:w-80 lg:w-96 xl:w-80 custom_1080:w-[19rem] custom_1440:w-[23rem] custom_1600:w-96 mx-auto shadow-2xl rounded-3xl">
                     <div className="card-body p-5">
                         <h2 className="border-b-2 py-2 pb-4 text-3xl font-bold flex items-center gap-3">< RiGraduationCapLine className='text-2xl'/>Student</h2>
                         <div>

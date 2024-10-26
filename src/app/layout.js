@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="light">
       <body
-        className={` ${roboto.variable} antialiased`}
+        className={` ${roboto.variable} antialiased `}
         // ${geistSans.variable} ${geistMono.variable} 
       >
         {children}
