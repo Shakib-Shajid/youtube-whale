@@ -11,7 +11,7 @@ const Banner = () => {
             <div className="hero-content text-center mt-10">
                 <div className=" w-[90%] mx-auto md:w-[80%] lg:w-full">
                     <div className='flex justify-center mb-5'>
-                        <Image src="/logo.svg" width="300" height="300" alt="" />
+                        <Image src="/logo.svg" width="300" height="300" alt="" className='w-56 md:w-72'/>
                     </div>
                     {/* text-[1.5rem]    custom_320:text-[1.4rem]  custom_412:text-[1.5rem]    */}
                     <h1 className="mb-10 
