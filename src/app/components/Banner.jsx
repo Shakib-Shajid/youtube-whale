@@ -21,7 +21,7 @@ const Banner = () => {
                         ¿Tus competidores están <br className='hidden lg:grid' /> robando tus clientes?
                     </h1>
 
-                    <p className="mb-5 text-lg leading-6">70% de los usuarios hace clic en uno de los primeros cinco resultados de Google</p>
+                    <p className="mb-5 text-lg leading-6">El 70% de los usuarios hace clic en uno de los primeros cinco resultados de Google</p>
                     <p className="mb-5 text-lg leading-6">Si no inviertes en SEO, ellos se llevan tus oportunidades </p>
 
 
