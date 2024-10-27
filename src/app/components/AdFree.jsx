@@ -15,7 +15,8 @@ const AdFree = () => {
                     </p>
                 </div>
                 <div className='md:w-[50%]'>
-                    <Image src="https://www.gstatic.com/youtube/img/promos/growth/premium_lp2_large_feature_AdFree_light_tablet_632x455.webp" width="1300" height="1200" alt="" />
+                    {/* <Image src="https://www.gstatic.com/youtube/img/promos/growth/premium_lp2_large_feature_AdFree_light_tablet_632x455.webp" width="1300" height="1200" alt="" /> */}
+                    <Image src="https://en.myposeo.com/blog/wp-content/uploads/2020/04/px-ranking2.gif" width="1300" height="1200" alt="" />
                 </div>
             </section>
 
@@ -23,7 +24,8 @@ const AdFree = () => {
             <section className='flex flex-col md:flex-row gap-10 items-center justify-evenly w-[80%] mx-auto my-20'>
 
                 <div className='md:w-[50%]'>
-                    <Image src="https://www.gstatic.com/youtube/img/promos/growth/premium_lp2_large_feature_UnlimitedDownloads_light_tablet_632x615.webp" width="1500" height="1200" alt="" />
+                    {/* <Image src="https://www.gstatic.com/youtube/img/promos/growth/premium_lp2_large_feature_UnlimitedDownloads_light_tablet_632x615.webp" width="1500" height="1200" alt="" /> */}
+                    <Image src="https://cdn.dribbble.com/users/525024/screenshots/4687739/milkshake.gif" width="1500" height="1200" alt="" className='rounded-2xl'/>
                 </div>
 
                 <div className='md:w-[50%]'>
@@ -43,7 +45,10 @@ const AdFree = () => {
                 </div>
 
                 <div className='md:w-[50%]'>
-                    <Image src="https://www.gstatic.com/youtube/img/promos/growth/premium_lp2_large_feature_BackgroundPlay_light_tablet_632x624.webp" width="1500" height="1200" alt="" />
+                    {/* <Image src="https://www.gstatic.com/youtube/img/promos/growth/premium_lp2_large_feature_BackgroundPlay_light_tablet_632x624.webp" width="1500" height="1200" alt="" /> */}
+                    {/* <Image src="https://i.gifer.com/origin/88/8879081f23ab7d1578aaec4153c6e65c_w200.gif" width="1200" height="1000" alt="" /> */}
+                    <Image src="/lock.gif" width="1500" height="1000" alt="" className='rounded-2xl'/>
+                    
                 </div>
             </section>
 

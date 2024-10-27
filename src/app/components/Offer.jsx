@@ -33,7 +33,8 @@ const Offer = () => {
             {/* 3rd */}
             <div className="card card-compact w-72 md:w-80 lg:w-96 custom_1080:w-[16rem] custom_1440:w-[20rem] custom_1600:w-80 h-full mx-auto text-center lg:text-start">
                 <figure className="w-full h-32 flex justify-center items-center">
-                    <Image src="https://www.gstatic.com/youtube/img/promos/growth/premium_lp2_small_feature_PictureInPicture_light_tablet_600x764.webp" width="100" height="100" alt="" className="object-contain" />
+                    {/* <Image src="https://www.gstatic.com/youtube/img/promos/growth/premium_lp2_small_feature_PictureInPicture_light_tablet_600x764.webp" width="100" height="100" alt="" className="object-contain" /> */}
+                    <Image src="https://indeedseo.com/blog/wp-content/uploads/2023/01/Optimize-Your-Landing-Pages.gif" width="200" height="200" alt="" className="object-contain" />
                 </figure>
                 <div className="card-body text-center">
                     <p className='text-base leading-[1.38rem]'>Los usuarios tienden a confiar más en los sitios bien posicionados</p>
