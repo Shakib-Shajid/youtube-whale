@@ -4,76 +4,71 @@ const FAQ = () => {
     return (
         //  
         <div className='bg-stone-100 w-[96%] lg:w-[80%] rounded-3xl mx-auto my-10 py-5' data-aos="flip-left">
-            <h3 className='text-3xl md:text-5xl font-bold py-5 w-[88%] lg:w-[96%] mx-auto'>Your questions, answered</h3>
+            <h3 className='text-3xl md:text-5xl font-bold py-5 w-[88%] lg:w-[96%] mx-auto'>Preguntas frecuentes</h3>
             <div className='w-[96%] lg:w-[98%] mx-auto rounded-2xl '>
                 <div className="collapse collapse-arrow mb-5">
                     <input type="checkbox" name="my-accordion-2" />
-                    <div className="collapse-title text-base md:text-lg font-bold">What’s included with YouTube Premium?</div>
+                    <div className="collapse-title text-base md:text-lg font-bold">¿Cuánto tiempo tardaré en ver resultados con SEO? </div>
                     <div className="collapse-content text-[#606060]">
-                        <p>With a YouTube Premium membership, you can watch ad-free videos on YouTube. Plus, you can download videos to watch offline—and you can play videos in the background while you use other apps.
-                            <br /><br />
-                            YouTube Music Premium is included in your YouTube Premium membership. Download the YouTube Music app to listen to over 100 million songs ad-free, offline, and while your screen is locked. <br /><br />
-                            You can also watch videos on the YouTube Kids app without ads.
+                        <p>Los resultados de SEO pueden tardar de 3 a 6 meses en ser visibles, ya que es una estrategia a
+                            largo plazo que requiere tiempo para construir autoridad y relevancia en los motores de búsqueda.</p>
+                    </div>
+                </div>
+                <div className="collapse collapse-arrow mb-5">
+                    <input type="checkbox" name="my-accordion-2" />
+                    <div className="collapse-title text-base md:text-lg font-bold">¿Cuándo debería usar SEM en lugar de SEO? </div>
+                    <div className="collapse-content text-[#606060]">
+                        <p>El SEM es ideal para generar tráfico rápido, como en el lanzamiento de un nuevo producto o una
+                            promoción temporal. Es útil cuando se necesitan resultados inmediatos y segmentados.</p>
+                    </div>
+                </div>
+                <div className="collapse collapse-arrow mb-5">
+                    <input type="checkbox" name="my-accordion-2" />
+                    <div className="collapse-title text-base md:text-lg font-bold">¿Es mejor usar SEO o SEM? </div>
+                    <div className="collapse-content text-[#606060]">
+                        <p>No hay una respuesta única; ambos tienen sus beneficios. El SEO es mejor para una estrategia a
+                            largo plazo y sostenible, mientras que el SEM es útil para obtener resultados rápidos. La
+                            combinación de ambos maximiza los beneficios.</p>
+                    </div>
+                </div>
+                <div className="collapse collapse-arrow mb-5">
+                    <input type="checkbox" name="my-accordion-2" />
+                    <div className="collapse-title text-base md:text-lg font-bold">¿Cuánto cuesta implementar SEO y SEM?</div>
+                    <div className="collapse-content text-[#606060]">
+                        <p>El coste del SEO varía según la complejidad del sitio y la competencia, pero generalmente implica
+                            una inversión inicial y mantenimiento continuo. El SEM, por otro lado, requiere un presupuesto
+                            constante para los anuncios, con costes que dependen de la competencia por las palabras clave y
+                            la duración de las campañas.</p>
+                    </div>
+                </div>
+                <div className="collapse collapse-arrow mb-5">
+                    <input type="checkbox" name="my-accordion-2" />
+                    <div className="collapse-title text-base md:text-lg font-bold">¿Cómo se mide el éxito de SEO y SEM? </div>
+                    <div className="collapse-content text-[#606060]">
+                        <p>El éxito del SEO se mide mediante métricas como el tráfico orgánico, la posición en los resultados
+                            de búsqueda y las conversiones. Para el SEM, se utilizan métricas como el CTR (Click-Through
+                            Rate), el CPC (Cost Per Click) y el ROI (Return on Investment). Ambas estrategias deben ser
+                            monitoreadas y ajustadas regularmente para maximizar su efectividad.
                         </p>
                     </div>
                 </div>
                 <div className="collapse collapse-arrow mb-5">
                     <input type="checkbox" name="my-accordion-2" />
-                    <div className="collapse-title text-base md:text-lg font-bold">How do I download videos and music?</div>
+                    <div className="collapse-title text-base md:text-lg font-bold">¿Puedo hacer SEO yo mismo? </div>
                     <div className="collapse-content text-[#606060]">
-                        <p>You can download and watch videos and music on your mobile device using the YouTube app, the YouTube Music app, or the YouTube Kids app. You can also download videos and watch on your computer using Chrome, Edge & Opera browsers.
-                            <br /><br />
-                            You can watch or listen to content offline for up to 30 days without being connected to the internet.
-                            <br /><br />
-                            <span className='text-[#065FD4]'>Learn more about how to watch videos offline</span>
-                        </p>
+                        <p>El SEO incluye aspectos técnicos como la optimización de la velocidad del sitio, la estructura del
+                            código, la configuración del servidor y la implementación de etiquetas y metadatos. Estos
+                            elementos requieren conocimientos especializados en desarrollo web y análisis de datos, por lo
+                            que es recomendable contar con profesionales experimentados para obtener los
+                            mejores resultados.</p>
                     </div>
                 </div>
-                <div className="collapse collapse-arrow mb-5">
-                    <input type="checkbox" name="my-accordion-2" />
-                    <div className="collapse-title text-base md:text-lg font-bold">How do I add people to my plan?</div>
-                    <div className="collapse-content text-[#606060]">
-                        <p>You can share your YouTube Premium membership with up to 5 additional household members with a family plan. Once you get a family plan, you can add members if you’re the family manager of your plan. Family members sharing a family plan must live in the same household as the family manager and have a Google account. Each family member gets their own private, personalized account.
-                            <br /><br />
-                            <span className='text-[#065FD4]'>Learn more about our family plan</span>
-                        </p>
-                    </div>
-                </div>
-                <div className="collapse collapse-arrow mb-5">
-                    <input type="checkbox" name="my-accordion-2" />
-                    <div className="collapse-title text-base md:text-lg font-bold">How do I play videos and music in the background?</div>
-                    <div className="collapse-content text-[#606060]">
-                        <p>With YouTube Premium, background play is on by default for YouTube, YouTube Music, and YouTube Kids. This means if you’re watching a video on YouTube and you leave the YouTube app, the video will keep playing in the background until you pause it. You can turn off background play anytime in your settings.
-                            <br /><br />
-                            <span className='text-[#065FD4]'>Learn more about Background Play</span>
-                        </p>
-                    </div>
-                </div>
-                <div className="collapse collapse-arrow mb-5">
-                    <input type="checkbox" name="my-accordion-2" />
-                    <div className="collapse-title text-base md:text-lg font-bold">What’s the difference between YouTube Premium and YouTube Music Premium?</div>
-                    <div className="collapse-content text-[#606060]">
-                        <p>With YouTube Premium, you can watch videos on the YouTube app ad-free, offline, and in the background.
-                            <br /><br />
-                            YouTube Music Premium is included in your YouTube Premium membership. Download the YouTube Music app to listen to over 100 million songs ad-free, offline, and while your screen is locked.
-                            <br /><br />
-                            <span className='text-[#065FD4]'>Learn more about YouTube Music</span>
-                        </p>
-                    </div>
-                </div>
-                <div className="collapse collapse-arrow mb-5">
-                    <input type="checkbox" name="my-accordion-2" />
-                    <div className="collapse-title text-base md:text-lg font-bold">How can I cancel my membership?</div>
-                    <div className="collapse-content text-[#606060]">
-                        <p>Cancel your membership by visiting the <span className='text-[#065FD4]'>Paid Membership page</span>. You can rejoin YouTube Premium at any time.</p>
-                    </div>
-                </div>
-                <div className="collapse mb-5">
+                {/* <div className="collapse mb-5">
                     <input type="checkbox" name="my-accordion-2" />
                     <div className="collapse-title text-sm font-bold leading-6">Have other questions? <br />
                         Visit the <span className='text-[#065FD4]'>YouTube Help Center</span></div>
 
-                </div>
+                </div> */}
             </div>
         </div >
     );
