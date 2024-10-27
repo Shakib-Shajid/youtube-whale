@@ -28,9 +28,9 @@ const Price = () => {
                         <div className="card-actions justify-end">
                             <button className="btn w-full rounded-full bg-[#0556BF] text-white text-lg">Get YouTube Premium</button>
                         </div> */}
-                        <p>Desde que contratamos a Whale Lagoon, hemos visto una mejora significativa en nuestra posición
+                        <p className='text-center leading-[1.75]'>&quot;Desde que contratamos a Whale Lagoon, hemos visto una mejora significativa en nuestra posición
                             frente a la competencia. Su análisis detallado y estrategias personalizadas nos han permitido
-                            superar a nuestros principales competidores. ¡Altamente recomendados!</p>
+                            superar a nuestros principales competidores. ¡Altamente recomendados!&quot;</p>
                     </div>
                 </div>
 
@@ -54,9 +54,9 @@ const Price = () => {
                         <div className="card-actions justify-end">
                             <button className="btn w-full rounded-full bg-[#b5cbe8] text-[#065FD4] text-lg">Get Family Plan</button>
                         </div> */}
-                        <p>Necesitábamos resultados rápidos y Whale Lagoon no nos decepcionó. En tiempo récord,
+                        <p className='text-center leading-loose'>&quot;Necesitábamos resultados rápidos y Whale Lagoon no nos decepcionó. En tiempo récord,
                             optimizaron nuestra campaña y logramos un ROI impresionante. Su eficiencia y rapidez son
-                            inigualables.</p>
+                            inigualables.&quot;</p>
                     </div>
                 </div>
 
@@ -80,9 +80,9 @@ const Price = () => {
                         <div className="card-actions justify-end">
                             <button className="btn w-full rounded-full bg-[#b5cbe8] text-[#065FD4] text-lg"><RiShareBoxLine className='text-2xl' />Get Student Plan</button>
                         </div> */}
-                        <p>Nuestra empresa estaba en un punto muerto en ventas hasta que empezamos a trabajar con
+                        <p className='text-center leading-[1.75]'>&quot;Nuestra empresa estaba en un punto muerto en ventas hasta que empezamos a trabajar con
                             Whale Lagoon. En pocos meses, nuestras ventas comenzaron a crecer de nuevo gracias a sus
-                            estrategias de SEO y SEM. ¡Estamos muy agradecidos!</p>
+                            estrategias de SEO y SEM. ¡Estamos muy agradecidos!&quot;</p>
                     </div>
                 </div>
             </div>
