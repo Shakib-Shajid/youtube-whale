@@ -12,8 +12,18 @@ const Another = () => {
                     }}>
                     <div className=' text-white  w-[80%] px-2 py-10' >
                         <Image src="/music.png" width="150" height="150" alt="" />
-                        <h3 className='text-4xl leading-snug font-bold my-5'>An app made just for music</h3>
-                        <p className='text-base'>With YouTube Premium you get uninterrupted access to stream all you want on the YouTube Music app. Listen to the world’s largest music catalog with over 100 million songs, ad-free — enjoy personalized mixes, playlists to fit every mood, chart-toppers from around the world and more, all without ads.</p>
+                        <h3 className='text-4xl leading-snug font-bold my-5'>¿Pero qué son SEO y SEM? </h3>
+                        <p className='text-base'>El <span className='font-bold'>SEO (Search Engine Optimization)</span> mejora el posicionamiento orgánico de un sitio web mediante la optimización de contenido y estructura. Es una estrategia a largo plazo que genera tráfico
+                            gratuito y construye credibilidad. El <span className='font-bold'>SEM (Search Engine Marketing)</span>, en cambio, utiliza publicidad
+                            pagada para obtener resultados inmediatos y segmentados, ideal para campañas específicas y
+                            lanzamientos rápidos.
+                            <br /><br />
+                            El <span className='font-bold'>SEO</span> es perfecto para una presencia online sostenible, mientras que el <span className='font-bold'>SEM</span> es útil para generar
+                            tráfico rápido y pruebas de mercado. La combinación de ambos maximiza beneficios: el SEO
+                            construye una base sólida y el SEM proporciona un impulso inmediato. Juntos, aseguran una
+                            cobertura completa y optimización continua, clave para una estrategia de marketing
+                            digital efectiva.
+                        </p>
                     </div>
                 </div>
 
