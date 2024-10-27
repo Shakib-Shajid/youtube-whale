@@ -11,7 +11,7 @@ const Another = () => {
                         backgroundImage: "url(https://www.gstatic.com/youtube/img/promos/growth/premium_lp2_large_feature_MusicModuleSquare_text_background_tablet_1284x1875.jpg)",
                     }}>
                     <div className=' text-white  w-[80%] px-2 py-10' >
-                        <Image src="/music.png" width="150" height="150" alt="" />
+                        <Image src="/logo.svg" width="200" height="200" alt="" />
                         <h3 className='text-4xl leading-snug font-bold my-5'>¿Pero qué son SEO y SEM? </h3>
                         <p className='text-base'>El <span className='font-bold'>SEO (Search Engine Optimization)</span> mejora el posicionamiento orgánico de un sitio web mediante la optimización de contenido y estructura. Es una estrategia a largo plazo que genera tráfico
                             gratuito y construye credibilidad. El <span className='font-bold'>SEM (Search Engine Marketing)</span>, en cambio, utiliza publicidad
