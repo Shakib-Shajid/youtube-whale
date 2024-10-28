@@ -57,7 +57,7 @@ const Offer = () => {
                     
                 </div>
             </div>
-        </div>
+        </div> 
 
 
 
