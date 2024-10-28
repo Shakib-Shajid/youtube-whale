@@ -6,7 +6,7 @@ const AdFree = () => {
         <div className='my-24 lg:mb-10'>
             <h2 className='text-3xl md:text-5xl font-bold text-center w-[90%] mx-auto md:w-full' data-aos="fade-down">De la calle principal a la primera página de Google</h2>
 
-            <section className='flex flex-col-reverse md:flex-row gap-5 md:gap-10 items-center justify-evenly w-[80%] mx-auto mt-10' data-aos="fade-right">
+            <section className='flex flex-col-reverse md:flex-row gap-5 md:gap-10 items-center justify-evenly w-[80%] mx-auto mt-10' data-aos="fade-up" >
                 <div className='md:w-[50%]'>
                     <h3 className='font-bold text-3xl md:text-5xl'>El auge del comercio electrónico </h3>
                     <p className='text-[#606060] my-5 text-lg leading-6'>El comercio electrónico ha superado a las ventas en tiendas físicas, con más del 60% de las
@@ -22,7 +22,7 @@ const AdFree = () => {
             </section>
 
 
-            <section className='flex flex-col md:flex-row gap-5 md:gap-10 items-center justify-evenly w-[80%] mx-auto' data-aos="fade-up">
+            <section className='flex flex-col md:flex-row gap-5 md:gap-10 items-center justify-evenly w-[80%] mx-auto' data-aos="fade-right">
 
                 <div className='md:w-[50%]'>
                     {/* <Image src="https://www.gstatic.com/youtube/img/promos/growth/premium_lp2_large_feature_UnlimitedDownloads_light_tablet_632x615.webp" width="1500" height="1200" alt="" /> */}
