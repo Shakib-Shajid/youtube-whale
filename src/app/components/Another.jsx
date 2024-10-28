@@ -27,7 +27,7 @@ const Another = () => {
                     </div>
                 </div>
 
-                <Image src="https://www.gstatic.com/youtube/img/promos/growth/premium_lp2_large_feature_MusicModuleSquare_tablet_640x550.webp" width="700" height="200" alt="" className='rounded-b-3xl md:rounded-l-none md:rounded-r-3xl -mt-1 md:-mt-0 md:w-[50%]' />
+                <Image src="https://www.gstatic.com/youtube/img/promos/growth/premium_lp2_large_feature_MusicModuleSquare_tablet_640x550.webp" width="700" height="200" alt="" className='rounded-b-3xl md:rounded-l-none md:rounded-r-3xl -mt-1 md:-mt-0 -ml-0 md:-ml-1 md:w-[50%]' />
             </div>
 
         </div>
