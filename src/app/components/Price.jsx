@@ -4,7 +4,7 @@ import { FaUser } from "react-icons/fa";
 
 const Price = () => {
     return (
-        <div>
+        <div data-aos="fade-down">
             <h3 className='text-center text-2xl lg:text-5xl font-bold my-10 lg:my-20'>¿Cuál es la opinión de  <br /> nuestros clientes? </h3>
 
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 max-w-5xl custom_1080:max-w-5xl xl:max-w-6xl custom_1440:max-w-7xl custom_1600:max-w-7xl lg:max-w-7xl mx-auto'>

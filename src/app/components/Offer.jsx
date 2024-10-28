@@ -3,7 +3,7 @@ import React from 'react';
 
 const Offer = () => {
     return (
-        <div className='grid grid-cols-1 lg:grid-cols-4 gap-2 max-w-5xl lg:max-w-7xl custom_1080:max-w-5xl xl:max-w-6xl custom_1440:max-w-7xl custom_1600:max-w-7xl  mx-auto lg:mt-10'>
+        <div className='grid grid-cols-1 lg:grid-cols-4 gap-2 max-w-5xl lg:max-w-7xl custom_1080:max-w-5xl xl:max-w-6xl custom_1440:max-w-7xl custom_1600:max-w-7xl  mx-auto lg:mt-10' data-aos="fade-up">
              {/* <div className='grid grid-cols-1 lg:grid-cols-4 gap-5  mx-auto'> */}
 
             {/* 1st */}

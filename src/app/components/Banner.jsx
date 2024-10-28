@@ -1,18 +1,26 @@
+"use client"
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
+import React, { useEffect } from 'react';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Banner = () => {
+
+    useEffect(() => {
+        AOS.init();
+    }, [])
     return (
         <div
             className="hero h-[640px] md:h-[700px]"
             style={{
                 backgroundImage: "url(https://www.gstatic.com/youtube/img/promos/growth/ytp_lp2_background_web_4098x2304.jpg)",
-            }}>
+            }} data-aos="fade-down" data-aos-duration="1000">
             <div className="hero-content text-center mt-10">
                 <div className=" w-[90%] mx-auto md:w-[80%] lg:w-full">
                     <div className='flex justify-center mb-5'>
-                        <Image src="/logo.svg" width="300" height="300" alt="" className='w-56 md:w-72'/>
+                        <Image src="/logo.svg" width="300" height="300" alt="" className='w-56 md:w-72' />
                     </div>
                     {/* text-[1.5rem]    custom_320:text-[1.4rem]  custom_412:text-[1.5rem]    */}
                     <h1 className="mb-10 

@@ -3,7 +3,7 @@ import React from 'react';
 
 const Another = () => {
     return (
-        <div>
+        <div data-aos="zoom-in" >
             <div className='w-[90%] mx-auto flex flex-col lg:flex-row my-10 bg-cover rounded-2xl' style={{
                         backgroundImage: "url(https://www.gstatic.com/youtube/img/promos/growth/premium_lp2_large_feature_MusicModuleSquare_text_background_tablet_1284x1875.jpg)",
                     }}>
