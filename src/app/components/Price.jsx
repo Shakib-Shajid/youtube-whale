@@ -5,19 +5,19 @@ import { FaUser } from "react-icons/fa";
 const Price = () => {
     return (
         <div data-aos="fade-down">
-            <h3 className='text-center text-2xl lg:text-5xl font-bold my-10 lg:my-20'>¿Cuál es la opinión de  <br /> nuestros clientes? </h3>
+            <h3 className='text-center text-2xl lg:text-5xl font-bold my-10 lg:my-20'>Nuestros clientes hablan: <br /> Esta podría ser tu opinión <br className=' md:hidden' />muy pronto </h3>
 
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 max-w-5xl custom_1080:max-w-5xl xl:max-w-6xl custom_1440:max-w-7xl custom_1600:max-w-7xl lg:max-w-7xl mx-auto'>
                 {/* 1st */}
-                <div className="card bg-base-100 w-72 md:w-80 lg:w-96 xl:w-80 custom_1080:w-[19rem] custom_1440:w-[24rem] custom_1600:w-96 mx-auto shadow-2xl rounded-3xl"> 
+                <div className="card bg-base-100 w-72 md:w-80 lg:w-96 xl:w-80 custom_1080:w-[19rem] custom_1440:w-[24rem] custom_1600:w-96 mx-auto shadow-2xl rounded-3xl">
                     <div className="card-body p-5">
                         <div className='flex gap-4 items-center border-b-2 border-blue-500 rounded-2xl shadow-lg py-2 pb-4 justify-center text-center'>
                             <div className=''>
                                 <h2 className=" text-xl font-bold flex items-center gap-3  justify-center text-blue-700">
-                                    Laura Martínez
+                                    Clara Méndez
                                     <br />
                                 </h2>
-                                <p className='text-gray-600'>Directora de Marketing</p>
+                                <p className='text-gray-600'>Fundadora de tienda online </p>
                             </div>
                         </div>
                         {/* <div>
@@ -28,22 +28,21 @@ const Price = () => {
                         <div className="card-actions justify-end">
                             <button className="btn w-full rounded-full bg-[#0556BF] text-white text-lg">Get YouTube Premium</button>
                         </div> */}
-                        <p className='text-center leading-[1.75]'>&quot;Desde que contratamos a Whale Lagoon, hemos visto una mejora significativa en nuestra posición
-                            frente a la competencia. Su análisis detallado y estrategias personalizadas nos han permitido
-                            superar a nuestros principales competidores. ¡Altamente recomendados!&quot;</p>
+                        <p className='text-center leading-[1.75]'>&quot;"Mi tienda online estaba estancada hasta que contacté con Whale Lagoon. No solo mejoraron mi posicionamiento en Google, sino que también me ayudaron a entender cómo atraer a los clientes correctos. El cambio ha sido espectacular."
+                            &quot;</p>
                     </div>
                 </div>
 
                 {/* 2nd */}
-                <div className="card bg-base-100 w-72 md:w-80 lg:w-96 xl:w-80 custom_1080:w-[19rem] custom_1440:w-[24rem] custom_1600:w-96 mx-auto shadow-2xl rounded-3xl"> 
+                <div className="card bg-base-100 w-72 md:w-80 lg:w-96 xl:w-80 custom_1080:w-[19rem] custom_1440:w-[24rem] custom_1600:w-96 mx-auto shadow-2xl rounded-3xl">
                     <div className="card-body p-5">
                         <div className='flex gap-4 items-center border-b-2 border-blue-500 rounded-2xl shadow-lg py-2 pb-4 justify-center text-center'>
                             <div className=''>
                                 <h2 className=" text-xl font-bold flex items-center gap-3 justify-center text-blue-700">
-                                    Carlos Gómez
+                                    Pablo Rodríguez
                                     <br />
                                 </h2>
-                                <p className='text-gray-600'>Gerente de Proyectos</p>
+                                <p className='text-gray-600'>Gerente de Marketing</p>
                             </div>
                         </div>
                         {/* <div>
@@ -54,22 +53,20 @@ const Price = () => {
                         <div className="card-actions justify-end">
                             <button className="btn w-full rounded-full bg-[#b5cbe8] text-[#065FD4] text-lg">Get Family Plan</button>
                         </div> */}
-                        <p className='text-center leading-loose'>&quot;Necesitábamos resultados rápidos y Whale Lagoon no nos decepcionó. En tiempo récord,
-                            optimizaron nuestra campaña y logramos un ROI impresionante. Su eficiencia y rapidez son
-                            inigualables.&quot;</p>
+                        <p className='text-center leading-loose'>&quot;Desde que comenzamos a trabajar con Whale Lagoon, nuestro tráfico web ha crecido un 120% en solo tres meses. La profesionalidad y el enfoque estratégico del equipo son impresionantes. ¡Recomendados al 100%!&quot;</p>
                     </div>
                 </div>
 
                 {/* 3rd */}
-                <div className="card bg-base-100 w-72 md:w-80 lg:w-96 xl:w-80 custom_1080:w-[19rem] custom_1440:w-[24rem] custom_1600:w-96 mx-auto shadow-2xl rounded-3xl"> 
+                <div className="card bg-base-100 w-72 md:w-80 lg:w-96 xl:w-80 custom_1080:w-[19rem] custom_1440:w-[24rem] custom_1600:w-96 mx-auto shadow-2xl rounded-3xl">
                     <div className="card-body p-5">
                         <div className='flex gap-4 items-center border-b-2 border-blue-500 rounded-2xl shadow-lg py-2 pb-4 justify-center text-center'>
                             <div className=''>
                                 <h2 className=" text-xl font-bold flex items-center gap-3 text-blue-700">
-                                    Ana Rodríguez
+                                    Diana Carrión
                                     <br />
                                 </h2>
-                                <p className='text-gray-600'>CEO</p>
+                                <p className='text-gray-600'>CEO y fundadora</p>
                             </div>
                         </div>
                         {/* <div>
@@ -80,9 +77,7 @@ const Price = () => {
                         <div className="card-actions justify-end">
                             <button className="btn w-full rounded-full bg-[#b5cbe8] text-[#065FD4] text-lg"><RiShareBoxLine className='text-2xl' />Get Student Plan</button>
                         </div> */}
-                        <p className='text-center leading-[1.75]'>&quot;Nuestra empresa estaba en un punto muerto en ventas hasta que empezamos a trabajar con
-                            Whale Lagoon. En pocos meses, nuestras ventas comenzaron a crecer de nuevo gracias a sus
-                            estrategias de SEO y SEM. ¡Estamos muy agradecidos!&quot;</p>
+                        <p className='text-center leading-[1.75]'>&quot;Estoy muy contenta con el equipo que gestiona mi estrategia digital 😊 gracias por ayudarme a seguir creciendo.&quot;</p>
                     </div>
                 </div>
             </div>
