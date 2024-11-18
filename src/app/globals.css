@@ -78,11 +78,16 @@ body {
   background-color: #FF6F00; /* Default orange */
   color: #FFFFFF; /* White text */
   border: none;
-  padding: 15px 30px; /* Ensure padding for large clickable area */
+  padding: 20px 30px; /* Ensure padding for large clickable area */
   font-size: 20px; /* Large text for emphasis */
   font-weight: bold; /* Bold for importance */
   cursor: pointer; /* Pointer cursor for interactivity */
   transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.cta-button:hover{
+  transform: scale(1.05);
+  transition: background-color 0.3s ease;
 }
 
 /* Responsive adjustments */
