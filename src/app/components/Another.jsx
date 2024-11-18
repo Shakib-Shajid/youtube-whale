@@ -30,7 +30,7 @@ const Another = () => {
                     </div>
                 </div>
 
-                <Image src="/another.png" width="4000" height="1000" alt="" className='rounded-b-3xl w-[80%] md:w-[80%] lg:w-[40%] md:h-[21rem] flex my-auto md:rounded-3xl mx-auto' />
+                <Image src="/another.png" width="4000" height="1000" alt="" className='rounded-b-3xl w-[80%] md:w-[80%] lg:w-[40%] md:h-[22rem] flex my-auto md:rounded-3xl mx-auto' />
             </div>
 
         </div>
