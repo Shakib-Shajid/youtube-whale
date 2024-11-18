@@ -1,9 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
+import another from "../../../public/another.png"
 
 const Another = () => {
     return (
-        <div data-aos="zoom-in" >
+        <div data-aos="zoom-in">
             <div className='w-[90%] mx-auto flex flex-col lg:flex-row my-10 bg-cover rounded-2xl' style={{
                         backgroundImage: "url(https://www.gstatic.com/youtube/img/promos/growth/premium_lp2_large_feature_MusicModuleSquare_text_background_tablet_1284x1875.jpg)",
                     }}>
@@ -30,7 +31,8 @@ const Another = () => {
                     </div>
                 </div>
 
-                <Image src="/another.png" width="4000" height="1000" alt="" className='rounded-b-3xl w-[80%] md:w-[80%] lg:w-[40%] md:h-[22rem] flex my-auto md:rounded-3xl mx-auto' />
+                {/* <Image src="/another.png" width="4000" height="1000" alt="" className='md:rounded-b-3xl w-[80%] md:w-[80%] lg:w-[40%] md:h-[23rem] flex my-auto rounded-3xl mx-auto' /> */}
+                <Image src={another} alt="" className='md:rounded-b-3xl w-[80%] md:w-[80%] lg:w-[44%] md:h-[23rem] flex my-auto rounded-3xl mx-auto'/>
             </div>
 
         </div>
