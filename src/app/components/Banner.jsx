@@ -52,12 +52,9 @@ const Banner = () => {
                     <Link href="https://calendly.com/d/cqjr-4dn-xcf/presentacion-analisis-seo?month=2024-10" target='_blank'>
                     <button
                         // className='meeting_btn'
-                        className='cta-button '
+                        className='cta-button hover:bg-[#E05B00] rounded-full mt-7'
                     //className="btn bg-[#FF6F00] hover:bg-[#E05B00] btn-lg px-4 pt-7 pb-11 rounded-lg w-full md:w-[21rem] text-[#FFFFFF] mb-10 mt-7 uppercase border-none"
-                    >Don&apos;t Lose More Customers: FREE SEO ANALYSIS</button></Link>
-
-                    <small className='cta-support-text block'>&quot;Get your FREE SEO analysis in less than 24 hours!&quot;</small>
-
+                    >No pierdas más clientes: ANÁLISIS SEO GRATIS</button></Link>
                 </div>
             </div>
 

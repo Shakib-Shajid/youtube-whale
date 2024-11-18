@@ -79,24 +79,10 @@ body {
   color: #FFFFFF; /* White text */
   border: none;
   padding: 15px 30px; /* Ensure padding for large clickable area */
-  border-radius: 8px; /* Slightly rounded corners */
   font-size: 20px; /* Large text for emphasis */
   font-weight: bold; /* Bold for importance */
   cursor: pointer; /* Pointer cursor for interactivity */
   transition: background-color 0.3s ease; /* Smooth hover effect */
-}
-
-/* Hover effect */
-.cta-button:hover {
-  background-color: #E05B00; /* Darker orange */
-}
-
-/* Supporting text styles */
-.cta-support-text {
-  margin-top: 10px; /* Space between button and text */
-  font-size: 14px; /* Smaller font size */
-  font-weight: 400; /* Regular font weight */
-  color: #555555; /* Slightly muted color for text */
 }
 
 /* Responsive adjustments */
