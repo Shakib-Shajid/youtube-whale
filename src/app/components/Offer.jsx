@@ -14,7 +14,7 @@ const Offer = () => {
                     <Image src="/offer_1.png" width="500" height="500" alt="" className="object-cover md:object-contain h-16 md:h-24 rounded-xl" />
                 </figure>
                 <div className="card-body text-start md:text-center ">
-                    <p className='text-base leading-[1.38rem]'>Estar en los primeros resultados de búsqueda aumenta la exposición de la empresa</p>
+                    <p className='text-base leading-[1.38rem]'>¿Tu empresa sigue perdiendo visibilidad porque no aparece en los primeros resultados de búsqueda?</p>
                     
                 </div>
             </div>
@@ -27,7 +27,7 @@ const Offer = () => {
                     <Image src="/offer_2.png" width="200" height="200" alt="" className="object-contain h-20 md:h-28" />
                 </figure>
                 <div className="card-body text-start md:text-center">
-                    <p className='text-base leading-[1.38rem] '>Atrae visitantes interesados en los productos o servicios ofrecidos</p>
+                    <p className='text-base leading-[1.38rem] '>¿Estás cansado de atraer visitantes que no están realmente interesados en lo que ofreces?</p>
                     
                 </div>
             </div>
@@ -40,7 +40,7 @@ const Offer = () => {
                     <Image src="/offer_3.png" width="200" height="200" alt="" className="object-contain h-20 md:h-28" />
                 </figure>
                 <div className="card-body text-start md:text-center">
-                    <p className='text-base leading-[1.38rem] '>Los usuarios tienden a confiar más en los sitios bien posicionados</p>
+                    <p className='text-base leading-[1.38rem] '>¿Sabías que los usuarios confían menos en los sitios que no están bien posicionados? ¿Es esa la percepción que quieres dar?</p>
                     
                 </div>
             </div>
@@ -53,7 +53,7 @@ const Offer = () => {
                     <Image src="/offer_4.png" width="200" height="200" alt="" className="object-contain h-20 md:h-28" />
                 </figure>
                 <div className="card-body text-start md:text-center">
-                    <p className='text-base leading-[1.38rem] '> Permite evaluar y ajustar estrategias para maximizar el retorno de inversión</p>
+                    <p className='text-base leading-[1.38rem] '>¿Cuánto dinero estás perdiendo por no optimizar tu estrategia y no maximizar el retorno de tu inversión?</p>
                     
                 </div>
             </div>
