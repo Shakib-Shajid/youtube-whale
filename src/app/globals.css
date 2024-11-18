@@ -42,3 +42,24 @@ body {
   background-color: black;
   color: white;
 }
+
+
+
+
+
+.meeting_btn {
+  background-color: #FF6F00; /* Default orange */
+  color: #FFFFFF; /* White text */
+  border: none;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 20px; /* Adjust as needed */
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top:10px;
+}
+
+.meeting_btn:hover {
+  background-color: #E05B00; /* Darker orange on hover */
+}

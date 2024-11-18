@@ -28,7 +28,7 @@ const Price = () => {
                         <div className="card-actions justify-end">
                             <button className="btn w-full rounded-full bg-[#0556BF] text-white text-lg">Get YouTube Premium</button>
                         </div> */}
-                        <p className='text-center leading-[1.75]'>&quot;"Mi tienda online estaba estancada hasta que contacté con Whale Lagoon. No solo mejoraron mi posicionamiento en Google, sino que también me ayudaron a entender cómo atraer a los clientes correctos. El cambio ha sido espectacular."
+                        <p className='text-center leading-[1.75]'>&quot;Mi tienda online estaba estancada hasta que contacté con Whale Lagoon. No solo mejoraron mi posicionamiento en Google, sino que también me ayudaron a entender cómo atraer a los clientes correctos. El cambio ha sido espectacular.
                             &quot;</p>
                     </div>
                 </div>
