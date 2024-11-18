@@ -32,7 +32,7 @@ const Another = () => {
                 </div>
 
                 {/* <Image src="/another.png" width="4000" height="1000" alt="" className='md:rounded-b-3xl w-[80%] md:w-[80%] lg:w-[40%] md:h-[23rem] flex my-auto rounded-3xl mx-auto' /> */}
-                <Image src={another} alt="" className='md:rounded-b-3xl w-[80%] md:w-[80%] lg:w-[44%] md:h-[23rem] flex my-auto rounded-3xl mx-auto'/>
+                <Image src={another} alt="" className='mb-12 md:mb-24 md:rounded-b-3xl w-[80%] md:w-[80%] lg:w-[44%] md:h-[23rem] flex my-auto rounded-3xl mx-auto'/>
             </div>
 
         </div>

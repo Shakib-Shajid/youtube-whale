@@ -26,12 +26,12 @@ const Banner = () => {
                     <h1 className="mb-10 
                     custom_320:text-[1.7rem]  
                     custom_412:text-[1.7rem]    
-                    md:text-[3.1rem] lg:text-[4rem] font-bold leading-tight md:leading-[1.25]">
-                        ¿Tus competidores están <br className='hidden lg:grid' /> robando tus clientes?
+                    md:text-[3.1rem] lg:text-[4rem] font-bold leading-tight md:leading-[1.25]">¿Por qué tus competidores <br className='hidden lg:block'/> están ganando y tú no?
                     </h1>
 
-                    <p className="mb-5 text-lg leading-6">El 70% de los usuarios hace clic en uno de los primeros cinco resultados de Google</p>
-                    <p className="mb-5 text-lg leading-6">Si no inviertes en SEO, ellos se llevan tus oportunidades </p>
+                    <p className="mb-5 text-lg leading-6">El 70% de los usuarios hace clic en los primeros resultados de Google...</p>
+                    <p className="mb-5 text-lg leading-6">Cada segundo que no inviertes en SEO, pierdes clientes potenciales</p>
+                    {/* <p className="mb-5 text-lg leading-6">Si no inviertes en SEO, ellos se llevan tus oportunidades </p> */}
 
 
                     {/* <p className="mb-5 text-lg leading-6 md:w-[90%] mx-auto lg:w-full">70% de los usuarios hace clic en uno de los primeros cinco resultados de Google <br className='hidden lg:grid' />
@@ -53,9 +53,9 @@ const Banner = () => {
                             // className='meeting_btn'
                             className='cta-button hover:bg-[#E05B00] rounded-full mt-7 uppercase'
                         //className="btn bg-[#FF6F00] hover:bg-[#E05B00] btn-lg px-4 pt-7 pb-11 rounded-lg w-full md:w-[21rem] text-[#FFFFFF] mb-10 mt-7 uppercase border-none"
-                        >ANÁLISIS SEO GRATIS</button></Link>
-                    
-                    <small className='text-sm font-normal block my-5'>No pierdas más clientes</small>
+                        >Quiero mi ANÁLISIS SEO GRATIS ahora</button></Link>
+
+                    <small className='text-sm font-normal block my-5'>Descubre por qué tus clientes no te encuentran y cómo solucionarlo.</small>
                 </div>
             </div>
 
