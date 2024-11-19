@@ -5,7 +5,7 @@ import { FaUser } from "react-icons/fa";
 const Price = () => {
     return (
         <div data-aos="fade-down">
-            <h3 className='text-center text-2xl lg:text-5xl font-bold my-10 lg:my-20'>Nuestros clientes hablan: <br /> Esta podría ser tu opinión <br className=' md:hidden' />muy pronto </h3>
+            <h3 className='text-center text-2xl lg:text-5xl font-bold my-10 lg:my-20'>Nuestros clientes hablan:   <br /> Esta podría ser tu opinión <br className=' md:hidden' />muy pronto </h3>
 
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 max-w-5xl custom_1080:max-w-5xl xl:max-w-6xl custom_1440:max-w-7xl custom_1600:max-w-7xl lg:max-w-7xl mx-auto'>
                 {/* 1st */}
@@ -28,7 +28,7 @@ const Price = () => {
                         <div className="card-actions justify-end">
                             <button className="btn w-full rounded-full bg-[#0556BF] text-white text-lg">Get YouTube Premium</button>
                         </div> */}
-                        <p className='text-center leading-[1.75]'>&quot;Mi tienda online estaba estancada hasta que contacté con Whale Lagoon. No solo mejoraron mi posicionamiento en Google, sino que también me ayudaron a entender cómo atraer a los clientes correctos. El cambio ha sido espectacular.
+                        <p className='text-center leading-[1.75]'>&quot;Mi tienda online estaba <span className='font-bold'>estancada</span> hasta que contacté con Whale Lagoon. No solo mejoraron mi <span className='font-bold'>posicionamiento en Google</span>, sino que también me ayudaron a entender cómo atraer a los <span className='font-bold'>clientes correctos</span>. <span className='font-bold'>El cambio ha sido espectacular.</span>
                             &quot;</p>
                     </div>
                 </div>
@@ -53,7 +53,7 @@ const Price = () => {
                         <div className="card-actions justify-end">
                             <button className="btn w-full rounded-full bg-[#b5cbe8] text-[#065FD4] text-lg">Get Family Plan</button>
                         </div> */}
-                        <p className='text-center leading-loose'>&quot;Desde que comenzamos a trabajar con Whale Lagoon, nuestro tráfico web ha crecido un 120% en solo tres meses. La profesionalidad y el enfoque estratégico del equipo son impresionantes. ¡Recomendados al 100%!&quot;</p>
+                        <p className='text-center leading-loose'>&quot;Desde que comenzamos a trabajar con Whale Lagoon, nuestro tráfico web ha crecido un <span className='font-bold'>120%</span> en solo tres meses. La <span className='font-bold'>profesionalidad</span> y el <span className='font-bold'>enfoque estratégico</span> del equipo son impresionantes. <span className='font-bold'>¡Recomendados al 100%!</span>&quot;</p>
                     </div>
                 </div>
 
@@ -77,7 +77,7 @@ const Price = () => {
                         <div className="card-actions justify-end">
                             <button className="btn w-full rounded-full bg-[#b5cbe8] text-[#065FD4] text-lg"><RiShareBoxLine className='text-2xl' />Get Student Plan</button>
                         </div> */}
-                        <p className='text-center leading-[1.75]'>&quot;Estoy muy contenta con el equipo que gestiona mi estrategia digital 😊 gracias por ayudarme a seguir creciendo.&quot;</p>
+                        <p className='text-center leading-[1.75]'>&quot;Estoy muy <span className='font-bold'>contenta</span> con el equipo que gestiona mi estrategia digital 😊 gracias por ayudarme a seguir <span className='font-bold'>creciendo</span>.&quot;</p>
                     </div>
                 </div>
             </div>
