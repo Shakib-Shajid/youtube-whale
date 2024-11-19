@@ -9,7 +9,7 @@ const Price = () => {
 
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 max-w-5xl custom_1080:max-w-5xl xl:max-w-6xl custom_1440:max-w-7xl custom_1600:max-w-7xl lg:max-w-7xl mx-auto'>
                 {/* 1st */}
-                <div className="card bg-base-100 w-72 md:w-80 lg:w-96 xl:w-80 custom_1080:w-[19rem] custom_1440:w-[24rem] custom_1600:w-96 mx-auto shadow-2xl rounded-3xl">
+                <div className="card bg-base-100 w-72 md:w-80 lg:w-96 xl:w-80 custom_1080:w-[19rem] custom_1440:w-[24rem] custom_1600:w-96 mx-auto shadow-2xl shadow-sky-100 rounded-3xl">
                     <div className="card-body p-5">
                         <div className='flex gap-4 items-center border-b-2 border-blue-500 rounded-2xl shadow-lg py-2 pb-4 justify-center text-center'>
                             <div className=''>
@@ -34,7 +34,7 @@ const Price = () => {
                 </div>
 
                 {/* 2nd */}
-                <div className="card bg-base-100 w-72 md:w-80 lg:w-96 xl:w-80 custom_1080:w-[19rem] custom_1440:w-[24rem] custom_1600:w-96 mx-auto shadow-2xl rounded-3xl">
+                <div className="card bg-base-100 w-72 md:w-80 lg:w-96 xl:w-80 custom_1080:w-[19rem] custom_1440:w-[24rem] custom_1600:w-96 mx-auto shadow-2xl shadow-sky-100 rounded-3xl">
                     <div className="card-body p-5">
                         <div className='flex gap-4 items-center border-b-2 border-blue-500 rounded-2xl shadow-lg py-2 pb-4 justify-center text-center'>
                             <div className=''>
@@ -58,7 +58,7 @@ const Price = () => {
                 </div>
 
                 {/* 3rd */}
-                <div className="card bg-base-100 w-72 md:w-80 lg:w-96 xl:w-80 custom_1080:w-[19rem] custom_1440:w-[24rem] custom_1600:w-96 mx-auto shadow-2xl rounded-3xl">
+                <div className="card bg-base-100 w-72 md:w-80 lg:w-96 xl:w-80 custom_1080:w-[19rem] custom_1440:w-[24rem] custom_1600:w-96 mx-auto shadow-2xl shadow-sky-100 rounded-3xl">
                     <div className="card-body p-5">
                         <div className='flex gap-4 items-center border-b-2 border-blue-500 rounded-2xl shadow-lg py-2 pb-4 justify-center text-center'>
                             <div className=''>
