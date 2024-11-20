@@ -24,7 +24,6 @@ const AdFree = () => {
                         La comodidad y accesibilidad del comercio digital, aceleradas por la pandemia, 
                         han sido claves en este cambio.
                     </p>
-                    <button className='btn btn-primary mt-4'>Descubre cómo aumentar tu visibilidad</button>
                 </div>
                 <div className='md:w-[50%]'>
                     <Image 
@@ -59,7 +58,6 @@ const AdFree = () => {
                         es el nuevo escaparate. Esto ofrece a pequeños y medianos negocios la oportunidad de 
                         competir con grandes marcas, atrayendo miles de visitantes a sus sitios web.
                     </p>
-                    <button className='btn btn-primary mt-4'>Empieza a optimizar tu sitio web ahora</button>
                 </div>
             </section>
 
@@ -80,7 +78,6 @@ const AdFree = () => {
                         alguien busque <em>&quot;tartas de boda&quot;</em>. Ambas estrategias son esenciales para atraer y convertir 
                         visitantes en clientes.
                     </p>
-                    <button className='btn btn-primary mt-4'>Aprende más sobre SEO y SEM</button>
                 </div>
                 <div className='md:w-[50%]'>
                     <Image 
