@@ -49,7 +49,7 @@ const Banner = () => {
 
                     <p className='text-xs leading-5'>Recurring billing. <br />
                         <span className='text-[#065FD4]'> Restrictions apply.</span> </p> */}
-                    <Link href="https://calendly.com/d/cqjr-4dn-xcf/presentacion-analisis-seo?month=2024-10" target='_blank'>
+                    <Link href="https://calendly.com/d/cmv6-9mf-gnq/presentacion-analisis-seo" target='_blank'>
                         <button
                             // className='meeting_btn'
                             className='cta-button hover:bg-[#FF9F42] rounded-full mt-7 uppercase'
