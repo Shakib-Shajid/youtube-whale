@@ -22,9 +22,9 @@ export async function POST(req) {
       currency: CURRENCIES.EUR, // EUR currency
       transactionType: TRANSACTION_TYPES.AUTHORIZATION,
       terminal: '001', // Terminal number
-      // merchantURL: 'http://www.my-shop.com/', // This should be your real merchant URL
-      // successURL: 'http://localhost:3000/success', // Your success URL
-      // errorURL: 'http://localhost:3000/error', // Your error URL
+      merchantURL: 'http://www.my-shop.com/', // This should be your real merchant URL
+      successURL: 'http://localhost:3000/success', // Your success URL
+      errorURL: 'http://localhost:3000/error', // Your error URL
     };
 
     // Log transaction parameters
