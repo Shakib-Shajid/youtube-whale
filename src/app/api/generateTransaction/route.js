@@ -11,8 +11,8 @@ export async function POST(req) {
 
   try {
     // Log incoming parameters to ensure they are correct
-    console.log("Received Amount (in Euros):", amount);
-    console.log("Received Order Reference:", orderReference);
+    // console.log("Received Amount (in Euros):", amount);
+    // console.log("Received Order Reference:", orderReference);
 
     const transactionParams = {
       amount: (amount * 100).toString(), // Convert to cents
@@ -28,12 +28,12 @@ export async function POST(req) {
     };
 
     // Log transaction parameters
-    console.log("Transaction Parameters:", transactionParams);
+    // console.log("Transaction Parameters:", transactionParams);
 
     const result = redsys.makePaymentParameters(transactionParams);
 
     // Log the result to check if it's correct
-    console.log("Generated RedSys Payment Parameters:", result);
+    // console.log("Generated RedSys Payment Parameters:", result);
 
     return new Response(JSON.stringify(result), {
       status: 200,
